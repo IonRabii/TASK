@@ -1,11 +1,11 @@
-package task;
+package task.initial;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import static task.Status.*;
+import static task.initial.Status.*;
 
 public class UserService {
   private final List<User> users;

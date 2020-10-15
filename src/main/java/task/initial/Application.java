@@ -1,11 +1,11 @@
-package task;
+package task.initial;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
 import static java.util.Arrays.asList;
-import static task.Status.*;
+import static task.initial.Status.*;
 
 public class Application {
 

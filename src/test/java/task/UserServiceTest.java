@@ -1,6 +1,8 @@
 package task;
 
 import org.junit.jupiter.api.Test;
+import task.initial.User;
+import task.initial.UserService;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -10,7 +12,7 @@ import java.util.List;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static task.Status.*;
+import static task.initial.Status.*;
 
 public class UserServiceTest {
   private static final LocalDateTime TODAY = LocalDateTime.parse("2020-10-01T18:00:00");
